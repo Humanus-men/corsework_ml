@@ -2,11 +2,6 @@
 venv/
 env/
 
-# report
-report/
-*report.docx
-*output.docx
-
 # Служебные папки PyCharm (можно оставить частично)
 .idea/
 *.iml
