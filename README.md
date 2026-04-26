@@ -4,21 +4,6 @@
 
 **Задачи:** регрессия IC50, CC50, SI; классификация превышения медиан и SI > 8.
 
-## Установка
-1. Клонируйте репозиторий
-2. Создайте виртуальное окружение и активируйте его
-3. Установите зависимости: `pip install -r requirements.txt`
-4. Поместите Excel-файл в `data/`
-
-## Запуск
-```bash
-python eda/eda.py                         # EDA
-python regression/reg_ic50.py            # регрессия IC50
-python regression/reg_cc50.py            # регрессия CC50
-python regression/reg_si.py              # регрессия SI
-python classification/clf_ic50_median.py  # классификация
-... (остальные аналогично)
-
 ## Структура
 coursework_ml/
 ├── data/
@@ -36,3 +21,18 @@ coursework_ml/
 ├── eda.py                    # разведочный анализ
 ├── requirements.txt          # зависимости
 └── README.md
+
+## Установка
+1. Клонируйте репозиторий
+2. Создайте виртуальное окружение и активируйте его
+3. Установите зависимости: `pip install -r requirements.txt`
+4. Поместите Excel-файл в `data/`
+
+## Запуск
+```bash
+python eda/eda.py                         # EDA
+python regression/reg_ic50.py            # регрессия IC50
+python regression/reg_cc50.py            # регрессия CC50
+python regression/reg_si.py              # регрессия SI
+python classification/clf_ic50_median.py  # классификация
+... (остальные аналогично)
